@@ -4,6 +4,7 @@
 }
 
 body {
+	background-color: black;
 	font-family: "Orbitron", sans-serif;
 }
 
@@ -39,6 +40,20 @@ body section#section-home p#brand-description {
 body section#section-home img#brand-logo {
 	width: 10rem;
 	height: 10rem;
+	margin-bottom: 5rem;
+}
+
+body section#section-home a#socialmedialinks {
+	text-decoration: none;
+	color: white;
+}
+
+body section#section-home a#socialmedialinks:hover {
+	color: #ff0000;
+}
+
+body section#section-home a#socialmedialinks:visited {
+	color: white;
 }
 
 body section#section-home p#note {
